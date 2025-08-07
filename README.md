@@ -44,8 +44,7 @@ go build -o discovr
 
 To run:
 ```bash
-./discovr scan --target 192.168.1.0/24
-./discovr cloud --provider aws
+go run main.go scan
 ```
 
 ## Usage
